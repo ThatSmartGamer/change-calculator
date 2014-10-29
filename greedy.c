@@ -68,11 +68,11 @@ int main(void)
         int penny = d/1;
         if (penny > 1)
           {
-            printf("%d pennies", penny);
+            printf("%d pennies\n", penny);
           }
         else
           {
-            printf("%d penny", penny);
+            printf("%d penny\n", penny);
           }
       }
     else
